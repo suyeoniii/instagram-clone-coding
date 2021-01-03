@@ -1,6 +1,21 @@
+@font-face{
+    font-family: "billabong";
+    src:url("font/billabong.otf")format("truetype");
+    font-stype: normal;
+    font-weight: bold;
+}
 body{
     background-color:rgb(247, 247, 247);
     text-align: center;
+}
+h1{
+    font-family: "billabong";
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
 }
 #container{
     margin: 0 auto;
@@ -17,15 +32,15 @@ body{
     text-align: center;
 }
 #login{
-    height: 300px;
+    height: 350px;
     padding: 20px 40px 20px 40px;
 }
 #register{
     padding: 20px 40px 20px 40px;
-    text-align: center;
+    font-size: 14px;
 }
 #register a{
-   color: rgb(77, 173, 252);
+   color: rgb(0, 140, 255);
    text-decoration: none;
    font-weight: bold;
 }
@@ -36,22 +51,55 @@ input{
     background-color: rgb(247, 247, 247);
     border: 1px solid rgb(206, 206, 206);
     padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
 }
 #btn_login{
-    width: 250px;
+    width: 273px;
     height: 30px;
-    margin: 4px;
-    background-color: skyblue;
+    margin: 10px 0px 20px 0px;
+    background-color: rgb(27, 152, 255);
     color: white;
     border: none;
+    font-weight: bold;
+    border-radius: 4px;
 }
 #or{
     color:rgb(136, 136, 136);
     font-weight: bold;
+    font-size: 13px;
+    height: 40px;
+    padding: 0 20px 0 20px;
+}
+#facebook a{
+    color: rgb(1, 51, 143);
+    font-size: 15px;
+    font-weight: bold;
 }
 #facebook{
-    color: rgb(1, 51, 143);
+    height: 30px;
+}
+#reset_password{
+    color: rgb(0, 35, 99);
+    font-size: 12px;
 }
 #down{
     padding: 15px;
+    font-size: 14px;
+}
+#store img{
+    width: 40%;
+    height: 20%;
+}
+#contain_or{
+    display:flex;
+    flex-direction: row;
+    width: 280px;
+}
+.line{
+    width:105px;
+    height: 0.5px;
+    background-color: rgb(209, 209, 209);
+    margin-top: 7px;
+    margin-left: 3px;
 }
