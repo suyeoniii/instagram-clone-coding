@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(247, 247, 247);
+    text-align: center;
+}
+#container{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    width: 370px;
+    margin-top: 70px;
+}
+.box{
+    width: 280px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: center;
+}
+#login{
+    height: 300px;
+    padding: 20px 40px 20px 40px;
+}
+#register{
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+}
+#register a{
+   color: rgb(77, 173, 252);
+   text-decoration: none;
+   font-weight: bold;
+}
+input{
+    width: 250px;
+    height: 15px;
+    margin: 4px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(206, 206, 206);
+    padding: 10px;
+}
+#btn_login{
+    width: 250px;
+    height: 30px;
+    margin: 4px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+}
+#or{
+    color:rgb(136, 136, 136);
+    font-weight: bold;
+}
+#facebook{
+    color: rgb(1, 51, 143);
+}
+#down{
+    padding: 15px;
+}
