@@ -1,18 +1,33 @@
-@font-face{
-    font-family: "billabong";
-    src:url("font/billabong.otf")format("truetype");
-    font-stype: normal;
-    font-weight: bold;
-}
 body{
-    background-color:rgb(247, 247, 247);
+    background-color:rgb(250, 250, 250);
     text-align: center;
+}
+#total_container{
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+}
+#phone{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#img_phone{
+    width: 420px;
+    height: 640px;
+}
+.img_index{
+    width: 230px;
+    height: 430px;
+    position: relative;
+    bottom: 530px;
+    left: 50px;
 }
 h1{
     font-family: "billabong";
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 a{
     text-decoration: none;
@@ -22,13 +37,13 @@ a{
     display:flex;
     flex-direction: column;
     width: 370px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .box{
     width: 280px;
     margin: 5px;
     background-color: white;
-    border: 1px solid rgb(206, 206, 206);
+    border: 1px solid rgb(218, 218, 218);
     text-align: center;
 }
 #login{
@@ -49,10 +64,17 @@ input{
     height: 15px;
     margin: 4px;
     background-color: rgb(247, 247, 247);
-    border: 1px solid rgb(206, 206, 206);
+    border: 1px solid rgb(218, 218, 218);
     padding: 10px;
     font-size: 12px;
     border-radius: 3px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgb(160, 160, 160);
+}
+::placeholder{
+    color: rgb(141, 141, 141);
 }
 #btn_login{
     width: 273px;
@@ -79,6 +101,12 @@ input{
 #facebook{
     height: 30px;
 }
+#facebook img{
+    height: 15px;
+    width: 15px;
+    margin-top: 1px;
+    margin-right: 3px;
+}
 #reset_password{
     color: rgb(0, 35, 99);
     font-size: 12px;
@@ -88,8 +116,8 @@ input{
     font-size: 14px;
 }
 #store img{
-    width: 40%;
-    height: 20%;
+    width: 140px;
+    height: 40px;
 }
 #contain_or{
     display:flex;
@@ -102,4 +130,10 @@ input{
     background-color: rgb(209, 209, 209);
     margin-top: 7px;
     margin-left: 3px;
+}
+@font-face{
+    font-family: "billabong";
+    src:url("font/billabong.otf")format("truetype");
+    font-stype: normal;
+    font-weight: bold;
 }

@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
-    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div id = "container">
-    <div id = "login" class = "box">
-    <h1>Instagram</h1>
-    <div>
-        <div id = 'form'>
-        <div>
-        <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일"/>
+    <div id = 'total_container'>
+    <div id='phone'>
+        <img id = 'img_phone' src="./img/phone.png" />
+        <img class = 'img_index' src="./img/index_1.jpg" />
+    </div>
+    <div id="container">
+        <div id="login" class="box">
+            <h1>Instagram</h1>
+            <div>
+                <div>
+                    <input class="form" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
+                </div>
+                <div>
+                    <input class="form" type="password" placeholder="비밀번호" />
+                </div>
+
+                <div>
+                    <input id="btn_login" type="submit" value="로그인" />
+                </div>
+            </div>
+            <div id="contain_or">
+                <div class="line"></div>
+                <span id="or">
+                    또는
+                </span>
+                <div class="line"></div>
+            </div>
+            <div id='facebook'>
+                <img src='./img/facebook.png' alt='페이스북로그인' />
+                <a href="">Facebook으로 로그인</a>
+            </div>
+            <div>
+                <a id='reset_password' href="">비밀번호를 잊으셨나요?</a>
+            </div>
         </div>
-        <div>
-        <input type="password" placeholder = "비밀번호"/>
+        <div id="register" class="box">
+            계정이 없으신가요?
+            <a href="">가입하기</a>
         </div>
-    
-        <div>
-        <input id = "btn_login" type="submit" value="로그인"/>
-    </div>
-</div>
-    </div>
-    <div id = "contain_or">
-    <div class="line"></div>
-    <span id = "or">
-        또는
-    </span>
-    <div class="line"></div>
-</div>
-    <div id = 'facebook'>
-    <a href = "">Facebook으로 로그인</a>
-    </div>
-    <div>
-    <a id = 'reset_password' href = "">비밀번호를 잊으셨나요?</a>
-    </div>
-</div>
-    <div id = "register" class = "box">
-    계정이 없으신가요?
-    <a href = "">가입하기</a>
-    </div>
-    <div id = 'down'>
-    앱을 다운로드 하세요.
-    </div>
-    <div id="store">
-        <img src = "./img/AppStore.png"/>
-        <img src = "./img/PlayStore.png"/>
+        <div id='down'>
+            앱을 다운로드 하세요.
+        </div>
+        <div id="store">
+            <img src="./img/AppStore.png" alt='앱스토어' />
+            <img src="./img/PlayStore.png" alt='플레이스토어' />
+        </div>
     </div>
 </div>
 </body>
+
 </html>
